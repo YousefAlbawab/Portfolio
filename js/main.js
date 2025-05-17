@@ -173,25 +173,6 @@ function createProjectCard(name, description, language, repoUrl, demoUrl = null)
     return projectCard;
 }
 
-// Handle contact form submission
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-        
-        // Here you would normally send the form data to a server
-        // For now, we'll just show an alert
-        alert(`Thank you ${name} for your message! I will get back to you at ${email} as soon as possible.`);
-        
-        // Reset the form
-        contactForm.reset();
-    });
-}
-
 // Add scroll animation for smooth section transitions
 const scrollOffset = 70; // Height of the fixed navbar
 

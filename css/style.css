@@ -443,38 +443,46 @@ section {
     color: var(--primary-color);
 }
 
-.contact-form {
+.contact-card {
     background-color: #fff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
 
-.form-group {
+.contact-card-header {
+    display: flex;
+    align-items: center;
     margin-bottom: 1.5rem;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
+.contact-card-header i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-right: 1rem;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    transition: var(--transition);
+.contact-card-header h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
+.contact-card-body p {
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+}
+
+.contact-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-buttons .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 /* Footer */
