@@ -1,7 +1,9 @@
 portfolio
+
 A minimalist, clean portfolio website template designed for developers, designers, and creatives.
 
 Overview
+
 portfoliomin is a lightweight, responsive portfolio website template focused on simplicity and clean design. It provides an elegant way to showcase your work, skills, and experience without unnecessary distractions.
 Features
 
@@ -14,6 +16,7 @@ Cross-browser compatible
 Accessible design
 
 Demo
+
 Check out the live demo at https://yousefalbawab.github.io/Portfolio/
 
 Installation
@@ -36,8 +39,11 @@ Replace the sample images in the img directory with your own.
 Update the js/main.js file if you need custom functionality.
 
 Customization
+
 Colors
+
 The main color scheme can be modified in the css/style.css file:
+
 css:root {
   --primary-color: #333333;
   --secondary-color: #666666;
@@ -54,13 +60,16 @@ cssbody {
 }
 
 Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Fork the repository
+
 Create your feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
 License
-This project is licensed under the MIT License - see below for details
+
+This project is licensed under the MIT License
