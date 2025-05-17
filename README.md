@@ -20,7 +20,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/portfoliomin.git
+git clone https://github.com/YousefAlbawab/Portfolio.git
 
 Navigate to the project folder:
 
